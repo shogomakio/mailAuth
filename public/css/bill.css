@@ -1,0 +1,41 @@
+#direccionIzquierda{
+    width:50%;
+    float:left;
+}
+
+#direccionDerecha{
+    width:50%;
+    float: right;
+}
+
+#columnaTercia{
+    width:33%;
+}
+#columnaCuarta{
+    width:24%;
+}
+
+#columnaOctal{
+    width:12.5%;
+}
+
+
+#tabla{
+    width: 608px; height: 106px; margin-left: auto; margin-right: auto;
+    border-color: black;
+    
+}
+
+
+#tablaBorde{
+    height: 107px; 
+    border-color: black; 
+    margin-left: auto; 
+    margin-right: auto;
+    border:"1"; 
+    width:"609";
+}
+
+.tamanDiv{
+    width: 100%;
+}

@@ -21,3 +21,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 
 Route::get('/user/verify/{token}', 'Auth\RegisterController@verifyUser');
+
+Route::get('/bill/view', [
+    'uses' => 'BillController@view',
+    'as' => 'bill.view'
+]);
