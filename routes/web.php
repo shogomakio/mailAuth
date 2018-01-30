@@ -26,3 +26,13 @@ Route::get('/bill/view', [
     'uses' => 'BillController@view',
     'as' => 'bill.view'
 ]);
+
+Route::get('/bill/pdf',[
+    'uses' => 'BillController@getPDF',
+    'as' => 'bill.facture'
+]);
+
+Route::post('/bill/pdf',[
+    'uses' => 'BillController@postPDF',
+    'as' => 'bill.facture'
+]);

@@ -1,15 +1,54 @@
-@extends('layouts.app')
-<!DOCTYPE html>
-<html lang="ja">
-<meta charset="utf-8">
-<!-- <link href="http://localhost:8000/css/bill.css" rel="stylesheet" type="text/css"> -->
-<link rel="stylesheet" href="{{ asset('/css/bill.css') }}">
-@section('content')
-<form action="{{route('bill.facture')}}" method="post">
-    {{csrf_field()}}
+<style type="text/css">
+#direccionIzquierda{
+    width:50%;
+    float:left;
+}
+
+#direccionDerecha{
+    width:50%;
+    float: right;
+}
+
+#columnaTercia{
+    width:33%;
+}
+#columnaCuarta{
+    width:24%;
+}
+
+#columnaOctal{
+    width:12.5%;
+}
+
+
+#tabla{
+    width: 608px; height: 106px; 
+    margin-left: auto; 
+    margin-right: auto;
+    border-color: black;
+    
+}
+
+#tablaBorde{
+    height: 107px; 
+    border-color: black; 
+    margin-left: auto; 
+    margin-right: auto;
+    border:"1"; 
+    width:"609";
+}
+
+.tamanDiv{
+    width: 100%;
+}
+
+#divBody{
+    color: black;
+    margin-left: auto; 
+    margin-right: auto;
+}
+</style>
 <div id="divBody">
-    <button type="submit" class="btn btn-success" style="margin-left: auto; 
-    margin-right: auto; width:100%;">PDF</button>
     <table id="tabla">
     <tbody>
         <tr>
@@ -54,7 +93,6 @@
     </tbody>
     </table>
     &nbsp;
-
     <table id="tabla" border="1">
     <tbody>
         <tr>
@@ -205,7 +243,6 @@
     </table>
 
     &nbsp;
-    </div>
-</form>
 
-@endsection
+    
+    </div>
