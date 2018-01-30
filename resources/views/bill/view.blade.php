@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <link href="http://localhost:8000/css/bill.css" rel="stylesheet" type="text/css">
 @section('content')
+<div id="divBody">
     <table id="tabla">
     <tbody>
         <tr>
@@ -201,7 +202,7 @@
 </table>
 
 &nbsp;
-
+</div>
 
 
 @endsection
