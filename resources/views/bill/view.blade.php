@@ -32,6 +32,7 @@
     </tbody>
     </table>
         <h1 style="text-align: center;" id="fontStyle">請求書</h1>
+        <p style="margin-left:20%;">いつもお世話になっております。下記の通りご請求申し上げます。</p>
         <table id="tabla" border="1">
         <tbody>
         <tr id="fontStyle2">
@@ -63,12 +64,12 @@
             <td id="columnaVeinte">金額</td>
         </tr>
         <tr>
-            <td rowspan="4">株式会社〇〇</td>
+            <td id="columnaSesenta"style="vertical-align:top" rowspan="4">株式会社〇〇</td>
             <td>基本金額</td>
             <td style="text-align: right;">0</td>
         </tr>
         <tr>
-            <td>その他請求</td>
+            <td >その他請求</td>
             <td style="text-align: right;">0</td>
         </tr>
         <tr>
@@ -181,7 +182,7 @@
         </tr>
     </tbody>
     </table>
-    <table id="tabla" border="1">
+    <!-- <table id="tabla" border="1">
     <tbody>
         <tr id="fontStyle2">
             <td id="columnaOctal" colspan="7">その他控除</td>
@@ -210,7 +211,7 @@
             <td id="columnaOctal" colspan="2">&nbsp;</td>
         </tr>
     </tbody>
-    </table>
+    </table> -->
     
         &nbsp;
     

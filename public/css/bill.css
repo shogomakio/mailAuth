@@ -57,6 +57,7 @@
     
 }
 
+
 #tablaBorde{
     border-color: black; 
     margin-left: auto; 
@@ -78,19 +79,19 @@
 
 #fontStyle{
     font-weight: bolder;
-    font-size: 26pt;
+    font-size: 18pt;
     margin-top:50px;
-    margin-bottom:50px;
+    margin-bottom:18px;
 }
 
 #fontStyle2{
     font-weight: bold;
-    font-size: 12pt;
+    font-size: 10pt;
 }
 
 #fontStyle3{
     font-weight: lighter;
-    font-size: 12pt;
+    font-size: 10pt;
 }
 
 #square {

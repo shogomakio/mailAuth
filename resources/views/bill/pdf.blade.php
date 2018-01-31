@@ -58,6 +58,7 @@
     
 }
 
+
 #tablaBorde{
     border-color: black; 
     margin-left: auto; 
@@ -79,32 +80,32 @@
 
 #fontStyle{
     font-weight: bolder;
-    font-size: 26pt;
+    font-size: 18pt;
     margin-top:50px;
-    margin-bottom:50px;
+    margin-bottom:18px;
 }
 
 #fontStyle2{
     font-weight: bold;
-    font-size: 14pt;
+    font-size: 10pt;
 }
 
 #fontStyle3{
     font-weight: lighter;
-    font-size: 14pt;
+    font-size: 10pt;
 }
 
 #square {
-	width: 15px;
-	height: 15px;
+	width: 35px;
+	height: 35px;
     border-radius: 5px;
 	/* background: red; */
     border: 1px solid  #20262B;
     padding: 20px; 
     position: fixed;  
     /* float:right; */
-    margin-left: 75%;
-    margin-top: 10px;
+    margin-left: 70%;
+    margin-top: 20px;
 }
 
 </style>
@@ -133,6 +134,7 @@
     </tbody>
     </table>
         <h1 style="text-align: center;" id="fontStyle">請求書</h1>
+        <p style="margin-left:5%;">いつもお世話になっております。下記の通りご請求申し上げます。</p>
         <table id="tabla" border="1">
         <tbody>
         <tr id="fontStyle2">
@@ -164,12 +166,12 @@
             <td id="columnaVeinte">金額</td>
         </tr>
         <tr>
-            <td rowspan="4">株式会社〇〇</td>
+            <td id="columnaSesenta"style="vertical-align:top" rowspan="4">株式会社〇〇</td>
             <td>基本金額</td>
             <td style="text-align: right;">0</td>
         </tr>
         <tr>
-            <td>その他請求</td>
+            <td >その他請求</td>
             <td style="text-align: right;">0</td>
         </tr>
         <tr>
@@ -282,7 +284,7 @@
         </tr>
     </tbody>
     </table>
-    <table id="tabla" border="1">
+    <!-- <table id="tabla" border="1">
     <tbody>
         <tr id="fontStyle2">
             <td id="columnaOctal" colspan="7">その他控除</td>
@@ -311,9 +313,7 @@
             <td id="columnaOctal" colspan="2">&nbsp;</td>
         </tr>
     </tbody>
-    </table>
+    </table> -->
     
         &nbsp;
-    
-        
-        </div>
+</div>
