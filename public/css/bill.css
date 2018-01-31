@@ -4,38 +4,65 @@
 }
 
 #direccionDerecha{
-    width:50%;
+    width:35%;
     float: right;
+}
+
+#direccionDerechaFull{
+    width:23%;
+    float: right;
+    /* position:absolute;
+    right: 10px; */
 }
 
 #columnaTercia{
     width:33%;
 }
 #columnaCuarta{
-    width:24%;
+    width:25%;
 }
 
 #columnaOctal{
     width:12.5%;
 }
 
+#columnaSegunda{
+    width:50%;
+}
 
-#tabla{
-    width: 608px; height: 106px; 
-    margin-left: auto; 
-    margin-right: auto;
-    border-color: black;
+#columnaCompleta{
+    width:100%;
+}
+
+#columnaOchenta{
+    width:80%;
+}
+
+#columnaSesenta{
+    width:60%;
+}
+
+#columnaVeinte{
+    width:20%;
     text-align: center;
 }
 
 
+#tabla{
+    width: 800px;
+    margin-left: auto; 
+    margin-right: auto;
+    border-color: black;
+    border-collapse: collapse;
+    
+}
+
 #tablaBorde{
-    height: 107px; 
     border-color: black; 
     margin-left: auto; 
     margin-right: auto;
-    border:"1"; 
-    width:"609";
+    border:1; 
+    width:800px;
 }
 
 .tamanDiv{
@@ -43,8 +70,38 @@
 }
 
 #divBody{
-    color: black;
+    color: #20262B;
     margin-left: auto; 
     margin-right: auto;
-    text-align: center;
+    height: 80%;
+}
+
+#fontStyle{
+    font-weight: bolder;
+    font-size: 26pt;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+#fontStyle2{
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+#fontStyle3{
+    font-weight: lighter;
+    font-size: 12pt;
+}
+
+#square {
+	width: 35px;
+	height: 35px;
+    border-radius: 5px;
+	/* background: red; */
+    border: 1px solid  #20262B;
+    padding: 20px; 
+    position: fixed;  
+    /* float:right; */
+    margin-left: 70%;
+    margin-top: 20px;
 }

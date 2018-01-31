@@ -36,3 +36,18 @@ Route::post('/bill/pdf',[
     'uses' => 'BillController@postPDF',
     'as' => 'bill.facture'
 ]);
+
+Route::get('/bill/condition', [
+    'uses' => 'BillController@viewCondition',
+    'as' => 'bill.condition'
+]);
+
+Route::get('/bill/conditionPrint',[
+    'uses' => 'BillController@getPDFCondition',
+    'as' => 'bill.terms'
+]);
+
+Route::post('/bill/conditionPrint',[
+    'uses' => 'BillController@postPDFCondition',
+    'as' => 'bill.terms'
+]);

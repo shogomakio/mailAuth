@@ -33,26 +33,43 @@ class BillController extends Controller
 
     public function postPDF()
     {
-        // $pdf = \App::make('dompdf.wrapper');
-        // $pdf->loadHTML('<h1>Test</h1>');
-        // return $pdf->stream();
-
-        // $users = User::all();
-
         $pdf = \PDF::loadView('bill.pdf')
         ->setOption('encoding', 'utf-8')
-        ->setPaper('A4');
+        ->setPaper('A4')
+        ->setOption('margin-top', 10)
+        ->setOption('margin-right', 10)    
+        ->setOption('margin-left', 10) ;
         // ->setOption('user-style-sheet', base_path() . '/public/css/bill.css');
         // ->setOption('user-style-sheet', base_path() . 'http://localhost:8000/css/bill.css');
         // $pdf->loadHTML('<h1>Test</h1>');
-        return $pdf->inline('bill.pdf'); 
-
-
-
-        // $pdf = \PDF::loadView('bill.view');
-        // // return $pdf->stream();     
+        return $pdf->inline('bill.pdf');   
 
         // return $pdf->inline('view.pdf'); 
         // return $pdf->download('bill.view.pdf');
+    }
+
+    public function viewCondition(){
+        return view('bill.condition');
+    }
+
+    public function postPDFCondition()
+    {
+        $pdf = \PDF::loadView('bill.conditionPrint')
+        ->setOption('encoding', 'utf-8')
+        ->setPaper('A4')
+        ->setOption('margin-top', 10)
+        ->setOption('margin-right', 10)    
+        ->setOption('margin-left', 10) ;
+        return $pdf->inline('bill.conditionPrint');  
+    }
+
+    public function getPDFCondition()
+    {
+        $pdf = \PDF::loadView('bill.conditionPrint')
+        ->setOption('encoding', 'utf-8')
+        // ->setOption('user-style-sheet', base_path() . '/public/css/bill.css');
+        ->setOption('user-style-sheet', base_path() . 'http://localhost:8000/css/bill.css');
+        // $pdf->loadHTML('<h1>Test</h1>');
+        return $pdf->inline('bill.conditionPrint');   
     }
 }
