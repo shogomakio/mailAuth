@@ -4,26 +4,19 @@
 }
 
 #direccionDerecha{
-    width:35%;
+    width:50%;
     float: right;
-}
-
-#direccionDerechaFull{
-    width:23%;
-    float: right;
-    /* position:absolute;
-    right: 10px; */
 }
 
 #columnaTercia{
     width:33%;
 }
 #columnaCuarta{
-    width:25%;
+    width:24%;
 }
 
 #columnaOctal{
-    width:12.5%;
+    width:14%;
 }
 
 #columnaSegunda{
@@ -38,10 +31,6 @@
     width:80%;
 }
 
-#columnaSesenta{
-    width:60%;
-}
-
 #columnaVeinte{
     width:20%;
     text-align: center;
@@ -54,9 +43,8 @@
     margin-right: auto;
     border-color: black;
     border-collapse: collapse;
-    
+    padding:0px;
 }
-
 
 #tablaBorde{
     border-color: black; 
@@ -74,35 +62,61 @@
     color: #20262B;
     margin-left: auto; 
     margin-right: auto;
-    height: 80%;
+    padding:0px;
 }
 
 #fontStyle{
-    font-weight: bolder;
-    font-size: 18pt;
-    margin-top:50px;
-    margin-bottom:18px;
+    font-weight: normal;
+    font-size: 16pt;
+    margin-top:0px;
+    margin-bottom:2px;
 }
 
 #fontStyle2{
     font-weight: bold;
-    font-size: 10pt;
+    font-size: 12pt;
 }
 
 #fontStyle3{
     font-weight: lighter;
-    font-size: 10pt;
+    font-size: 12pt;
 }
 
-#square {
-	width: 35px;
-	height: 35px;
-    border-radius: 5px;
-	/* background: red; */
-    border: 1px solid  #20262B;
-    padding: 20px; 
-    position: fixed;  
-    /* float:right; */
-    margin-left: 70%;
-    margin-top: 20px;
+p.estilo{
+    font-weight:lighter;
+    font-size:11pt;
+}
+p.estilo2{
+    font-weight:bold;
+    font-size:13pt;
+}
+
+p.estiloTitle{
+    font-weight:normal;
+    font-size:12pt;
+    text-align:left;
+    text-align: justify;
+}
+p.estiloLight{
+    font-weight:lighter;
+    font-size:11pt;
+    margin-top:35px;
+    margin-bottom:3px;
+}
+p.estiloPrincipal{
+    font-weight:normal;
+    font-size:14pt;
+    margin-bottom:3px;
+    margin-top:3px;
+    margin:1px;
+    padding:0px;
+}
+
+#notes{    
+    width: 800px;
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: justify;
+    margin-top:1px;
+    margin-bottom:1px;
 }

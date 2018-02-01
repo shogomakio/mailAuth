@@ -288,7 +288,7 @@
     <tbody>
         <tr id="fontStyle2">
             <td id="columnaOctal" colspan="7">その他控除</td>
-        </tr>
+       </tr>
         <tr id="fontStyle3">
             <td id="columnaOctal">日付</td>
             <td id="columnaCuarta">課税区分</td>
@@ -314,6 +314,4 @@
         </tr>
     </tbody>
     </table> -->
-    
-        &nbsp;
-</div>
+
