@@ -1,0 +1,122 @@
+#direccionIzquierda{
+    width:50%;
+    float:left;
+}
+
+#direccionDerecha{
+    width:50%;
+    float: right;
+}
+
+#columnaTercia{
+    width:33%;
+}
+#columnaCuarta{
+    width:24%;
+}
+
+#columnaOctal{
+    width:14%;
+}
+
+#columnaSegunda{
+    width:50%;
+}
+
+#columnaCompleta{
+    width:100%;
+}
+
+#columnaOchenta{
+    width:80%;
+}
+
+#columnaVeinte{
+    width:20%;
+    text-align: center;
+}
+
+
+#tabla{
+    width: 800px;
+    margin-left: auto; 
+    margin-right: auto;
+    border-color: black;
+    border-collapse: collapse;
+    padding:0px;
+}
+
+#tablaBorde{
+    border-color: black; 
+    margin-left: auto; 
+    margin-right: auto;
+    border:1; 
+    width:800px;
+}
+
+.tamanDiv{
+    width: 100%;
+}
+
+#divBody{
+    color: #20262B;
+    margin-left: auto; 
+    margin-right: auto;
+    padding:0px;
+}
+
+#fontStyle{
+    font-weight: normal;
+    font-size: 16pt;
+    margin-top:0px;
+    margin-bottom:2px;
+}
+
+#fontStyle2{
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+#fontStyle3{
+    font-weight: lighter;
+    font-size: 12pt;
+}
+
+p.estilo{
+    font-weight:lighter;
+    font-size:11pt;
+}
+p.estilo2{
+    font-weight:bold;
+    font-size:13pt;
+}
+
+p.estiloTitle{
+    font-weight:normal;
+    font-size:12pt;
+    text-align:left;
+    text-align: justify;
+}
+p.estiloLight{
+    font-weight:lighter;
+    font-size:11pt;
+    margin-top:35px;
+    margin-bottom:3px;
+}
+p.estiloPrincipal{
+    font-weight:normal;
+    font-size:14pt;
+    margin-bottom:3px;
+    margin-top:3px;
+    margin:1px;
+    padding:0px;
+}
+
+#notes{    
+    width: 800px;
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: justify;
+    margin-top:1px;
+    margin-bottom:1px;
+}

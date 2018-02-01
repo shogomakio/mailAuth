@@ -21,3 +21,33 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 
 Route::get('/user/verify/{token}', 'Auth\RegisterController@verifyUser');
+
+Route::get('/bill/view', [
+    'uses' => 'BillController@view',
+    'as' => 'bill.view'
+]);
+
+Route::get('/bill/pdf',[
+    'uses' => 'BillController@getPDF',
+    'as' => 'bill.facture'
+]);
+
+Route::post('/bill/pdf',[
+    'uses' => 'BillController@postPDF',
+    'as' => 'bill.facture'
+]);
+
+Route::get('/bill/condition', [
+    'uses' => 'BillController@viewCondition',
+    'as' => 'bill.condition'
+]);
+
+Route::get('/bill/conditionPrint',[
+    'uses' => 'BillController@getPDFCondition',
+    'as' => 'bill.terms'
+]);
+
+Route::post('/bill/conditionPrint',[
+    'uses' => 'BillController@postPDFCondition',
+    'as' => 'bill.terms'
+]);
